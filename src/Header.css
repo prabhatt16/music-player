@@ -1,0 +1,23 @@
+.header{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-color: rgb(245, 239, 239);
+    margin: 0;
+    border-bottom: 1px solid rgb(226, 215, 215);
+}
+.headerIcon{
+    height: 22px;
+    width: 22px;
+    color: rgba(0, 0, 0, 0.644);
+}
+.header>img{
+    width: 40px;
+    height:40px;
+    object-fit: contain;
+    padding: 5px;
+    background-color: white;
+    border: 0.1px solid rgb(207, 207, 207);
+    border-radius: 100%;
+}
